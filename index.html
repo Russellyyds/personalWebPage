@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <meta name="description" content="This website is about my personal information.For example, my skills, work experience and education experience. ">
+    <meta name="keyword" content="Russell Pan, Python, Java ,AI ,font-end,back-end">
     <meta name="author" content="Russell Pan"/>
     <title>Russell Pan Personal Page</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../css/index.css" />
   </head>
   <body>
     <header class="header--fixed">
@@ -924,19 +925,19 @@
                       <div class="col6">
                         <div class="form-group">
                           <label for="contact-name">Your Name</label>
-                          <input class="form-control form-control-lg" name="contact-name" id="contact-name" type="text">
+                          <input class="form-control form-control-lg" name="contact-name" id="contact-name" type="text" required>
                         </div>
                       </div>
                       <div class="col6">
                         <div class="form-group">
                           <label for="contact-phone">Phone Number</label>
-                          <input class="form-control form-control-lg" name="contact-phone" id="contact-phone" type="text">
+                          <input class="form-control form-control-lg" name="contact-phone" id="contact-phone" type="text" required>
                         </div>
                       </div>
                       <div class="col12">
                         <div class="form-group">
                           <label for="contact-email">Email</label>
-                          <input class="form-control form-control-sm" id="contact-email" name="contact-email" type="email">
+                          <input class="form-control form-control-sm" id="contact-email" name="contact-email" type="email" required>
                       </div>
                       </div>
                       <div class="col12">
@@ -962,9 +963,7 @@
         </div>
       </div>
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
     </main>
-
     <footer class="footer-area">
       <div class="container">
         <div class="row">
@@ -981,11 +980,12 @@
         </div>
       </div>
     </footer>
+
     <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js" color="255,255,255"></script>
-    <script src="jquery.js"></script>
-    <script src="text-type.js"></script>
-    <script src="main.js"></script>
-    <script src="header.js"></script>
+    <script src="../js/vendor/jquery.js" defer></script>
+    <script src="../js/vendor/text-type.js" defer></script>
+    <script src="../js/main.js" defer></script>
+    <script src="../js/header.js" defer></script>
 
   </body>
 </html>
