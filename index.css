@@ -1402,19 +1402,7 @@ ul li a {
         width: 48% !important;
     }
 }
-@media screen and (max-width: 800px) {
-    .contact-area .container .row1 .col5 {
-        width: 100% !important;
-    }
-    .contact-area .container .row1 .col7 {
-        margin-top: 50px;
-        width: 100% !important;
-    }
-    .contact-area .container .row1 .col7 .contact-form-wrapper {
-        margin-left: 0;
-    }
-}
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 820px) {
     .align-item-center {
         --bs-gutter-x: 1.5rem;
         --bs-gutter-y: 0;
@@ -1427,21 +1415,23 @@ ul li a {
         margin-right: -30px;
         margin-top: calc(var(--bs-gutter-y) * -1);
     }
-    .align-item-center .container1 {
-        width: 80% !important;
-    }
     .align-item-center .container1 .title {
-        font-size: 50px !important;
+        font-size: 30px !important;
     }
-    .align-item-center .container1 .row {
-        justify-content: center !important;
-        align-items: center !important;
-        margin-bottom: 10px;
+    .align-item-center .container1 .row .fineme .title {
+        font-size: 20px !important;
     }
-    .align-item-center .container2 {
-        width: 60% !important;
+    .align-item-center .container1 .row .skill .title {
+        font-size: 20px !important;
     }
-    .portfolio-cards .portfolio-card {
-        width: 48% !important;
+    .contact-area .container .row1 .col5 {
+        width: 100% !important;
+    }
+    .contact-area .container .row1 .col7 {
+        margin-top: 50px;
+        width: 100% !important;
+    }
+    .contact-area .container .row1 .col7 .contact-form-wrapper {
+        margin-left: 0;
     }
 }
